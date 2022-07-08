@@ -11,13 +11,13 @@ global.sgh = process.env.LINK_GITHUB
 global.sgc = process.env.LINK_GROUP
 global.ownernumber = process.env.NOWNER
 global.owner = [
+  ['6285922480867'],
   ['0'],
-  ['0'],
-  [`${process.env.NOWNER}`, `${process.env.NAMAOWNER}`, true]
+  [`${process.env.6285922480867}`, `${process.env.Ikyy}`, true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
-global.mods = [`${process.env.MODERATOR}`] // Want some help?
-global.prems = [] // Premium user has unlimited limit
+global.mods = [`${process.env.6285922480867}`] // Want some help?
+global.prems = [6285922480867] // Premium user has unlimited limit
 global.APIs = { // API Prefix
   // name: 'https://website'
   nrtm: 'https://nurutomo.herokuapp.com',
@@ -38,8 +38,8 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.packname = process.env.PACKNAME
-global.author = process.env.AUTHOR
+global.packname = process.env.Cyans
+global.author = process.env.Iky
 
 global.multiplier = 69 // The higher, The harder levelup
 
